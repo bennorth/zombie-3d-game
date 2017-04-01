@@ -1,0 +1,57 @@
+The JavaScript source code in this project is licensed as follows:
+
+    game.js --- Ben North, GNU GPL v3 or later
+    jquery-3.1.1.min.js --- jQuery Foundation, see jquery.org/license
+    babylon.2.4.js --- BabylonJS contributers, Apache License 2.0
+
+
+The non-source-code content
+
+    Blue-zombie-w400.jpg
+    Blue-zombie-w400-splatted.jpg
+    Brown-zombie-w400.jpg
+    Brown-zombie-w400-splatted.jpg
+    Green-zombie-w400.jpg
+    Green-zombie-w400-splatted.jpg
+    house-0002.jpg
+    house-0003.jpg
+    house-0004.jpg
+    house-0005.jpg
+    house-0006.jpg
+    house-0007.jpg
+    house-0008.jpg
+    house-0009.jpg
+    index.html
+    map.png
+    monsters.babylon
+    README.md
+    Red-zombie-w400.jpg
+    Red-zombie-w400-splatted.jpg
+    world-003.babylon
+    Yellow-zombie-w400.jpg
+    Yellow-zombie-w400-splatted.jpg
+    zombie-attack-w360.jpg
+
+is copyright 2017 Ben North and Sally North and is hereby made
+available under the CC BY-SA 4.0 licence
+(https://creativecommons.org/licenses/by-sa/4.0/).
+
+
+The binary content
+
+    map.bin
+
+is hereby placed into the public domain.
+
+
+The image content
+
+    skybox1/skybox_nx.jpg
+    skybox1/skybox_ny.jpg
+    skybox1/skybox_nz.jpg
+    skybox1/skybox_px.jpg
+    skybox1/skybox_py.jpg
+    skybox1/skybox_pz.jpg
+
+is copyright 3DElyvisions and credit is hereby given to 3DElyvisions
+(http://3delyvisions.co/skf1.htm).

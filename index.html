@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Splat the zombies!</title>
+    <script src="babylon.2.4.js"></script>
+    <script src="jquery-3.1.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <style>
+        #game-canvas {
+        display: block;
+            margin-left: auto; margin-right: auto; margin-top: 10px;
+            width: 840px;
+            height: 560px;
+        }
+
+        #game-container { width: 840px; margin: auto; }
+        #game-container .game-info,
+        #game-container .game-info * { font-family: 'Roboto Slab', serif; font-size: 36px; }
+        #game-container #msgs div p { font-size: 48px; }
+        #game-container table.game-info { width: 100%; }
+        #game-container table.game-info td { width: 33.333%; text-align: center; }
+        #game-container div.game-info { text-align: center; color: #102010; }
+        #start-button { margin-top: 16px; }
+        #coords { display: none; }
+        .title { font-family: 'Roboto Slab', serif; font-size: 24px; }
+        .title .info { float: right; font-size: 16px; background-color: #ddf; padding: 6px; }
+        .title .info a { text-decoration: none; }
+    </style>
+</head>
+<body>
+  <div id="game-container">
+    <p class="title">Splat the zombies!
+      <span class="info"><a href="https://github.com/bennorth/zombie-3d-game/blob/gh-pages/README.md">[&nbsp;INFO&nbsp;]</a></span></p>
+
+    <canvas id="game-canvas"></canvas>
+
+    <table class="game-info">
+      <tr><td>Lives: <span id="lives">0</span></td>
+        <td>Bullets: <span id="bullets">0</span></td>
+        <td>Score: <span id="score">0</span></td></tr></table>
+    <div class="game-info" id="msgs"></div>
+    <div class="game-info"><button id="start-button" disabled>Start Game</button></div>
+    <div id="coords"></div>
+  </div>
+  <script src="game.js"></script>
+</body>
+
+</html>
